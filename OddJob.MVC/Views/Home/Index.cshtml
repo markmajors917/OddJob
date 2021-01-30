@@ -1,0 +1,32 @@
+﻿@model IEnumerable<OddJob.Datal.Job>
+
+
+
+<div class="jumbotron">
+    <h1>Jobs</h1>
+    <p class="lead">
+        Our mission is to serve our community, while instilling values such as work ethic,  honesty and integrity. Through oDD jOBB, our youth gain a deeper understanding and appreciation for money, while being rewarded for a chore well done.
+    </p>
+    @Html.ActionLink("Learn More About Us", "About")
+    @Html.ActionLink("Check Jobs", "Index", "Job", null, new { @class = "btn btn-primary btn-large" })
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Meet the kids</h2>
+        <p>
+            Our kids range in ages from 10-15. Parent supervision is required. Help our kids gain valuable experience, learn to be responsible for a job well done, and be rewarded.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Meet our workforce &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>View the jobs</h2>
+        <p>There is an oDD jOBB for everyone. No exxperience is required!</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Testimonials</h2>
+        <p>Here what your neigbors and parents have to say.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">View Here &raquo;</a></p>
+    </div>
+</div>
